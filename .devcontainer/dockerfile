@@ -2,7 +2,7 @@ FROM python:3-slim
 
 WORKDIR /workspace
 
-RUN apt-get update && apt-get -y install gcc musl-dev libffi-dev python3-dev openssl 
+RUN apt-get update && apt-get -y install gcc musl-dev libffi-dev python3-dev openssl ps
 
 #Criptography module´s dependencies 
 RUN apt-get -y install rustc cargo
